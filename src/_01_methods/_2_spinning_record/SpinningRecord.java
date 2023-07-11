@@ -49,7 +49,10 @@ public class SpinningRecord extends PApplet {
 
     @Override
     public void setup() {
-        
+    	int spinTime = 0;
+    	 size(600,600);
+    	pictureOfRecord = loadImage("images/record.png");  
+    	   pictureOfRecord.resize(height,width);  
     }
 
     @Override
